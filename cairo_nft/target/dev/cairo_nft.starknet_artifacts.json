@@ -1,0 +1,1 @@
+{"version":1,"contracts":[{"id":"3ts3ttevd5h1g","package_name":"cairo_nft","contract_name":"NFTContract","module_path":"cairo_nft::NFTContract::NFTContract","artifacts":{"sierra":"cairo_nft_NFTContract.contract_class.json","casm":null}}]}
