@@ -24,10 +24,10 @@ mod NFTContract {
     // Format of metadata file: https://docs.opensea.io/docs/metadata-standards
     // Our BASE URI is fully compatible with IPFS metadata of nfts2me or Zora...
     // (BASE URI must be divided into 3 parts because Cairo 1 does not support long String by default)
-    // Eg: ipfs://QmPZn3oYgHogcCd85irQhP3yMaDa98xxh6Te5PBnSabhYr/   -> 0x697066733a2f2f516d505a6e336f5967486f676343643835697251685033794d61446139387878683654653550426e5361626859722f
-    const BASE_URI_PART_1: felt252 = 0x697066733a2f2f516d505a6e336f5967486f676343643835;
-    const BASE_URI_PART_2: felt252 = 0x697251685033794d61446139387878683654653550426e53;
-    const BASE_URI_PART_3: felt252 = 0x61626859722f;
+    // Eg: ipfs:///QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/   -> 0x697066733a2f2f2f516d65536a53696e4870506e6d586d73704d6a776958794e367a533445397a63636172694752336a7863615774712f
+    const BASE_URI_PART_1: felt252 = 0x697066733a2f2f516d65536a53696e4870506e6d;
+    const BASE_URI_PART_2: felt252 = 0x586d73704d6a776958794e367a533445397a6363;
+    const BASE_URI_PART_3: felt252 = 0x6172694752336a7863615774712f;
     
     // Total number of NFTs that can be minted
     const MAX_SUPPLY: u256 = 9999;
