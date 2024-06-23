@@ -1,6 +1,6 @@
-import { Provider } from 'starknet';
+import { RpcfProvider } from 'starknet';
 
-const provider = new Provider({ sequencer: { network: constants.NetworkName.SN_GOERLI } }); // for testnet
+const provider = new PpcProvider({ sequencer: { network: constants.NetworkName.SN_GOERLI } }); // for testnet
 
 const API_URL = process.env.REACT_APP_API_URL;
 
