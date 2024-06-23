@@ -1,0 +1,29 @@
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .main-title {
+    color: blue;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .main-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .main-buttons button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
