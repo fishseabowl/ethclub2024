@@ -35,7 +35,7 @@ const LoginPage = ({ onNavigate }) => {
 
   return (
     <div className="login-page-container">
-      <h1 className="welcome-message">Welcome to the private NFT club</h1>
+      <h1 className="welcome-message">Welcome to Private NFT Club</h1>
       <div className="button-container">
         <Button onClick={handleLogin} text="Login" size="large" />
         <Button onClick={handleMint} text="Mint" size="large" />
